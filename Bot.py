@@ -22,7 +22,7 @@ except:
     SUDO_USERS = set()
 
 # Varsayılan sudo kullanıcı ID'si ekle
-SUDO_USERS.add(7711266960)
+SUDO_USERS.add(buraya id ni gir aq)
 save_json = lambda path, data: open(path, "w").write(json.dumps(data, indent=2))
 save_json(SUDO_FILE, {str(u): True for u in SUDO_USERS})
 
